@@ -1,5 +1,5 @@
 {
-  "name": "Ecommerce-app-2023",
+  "name": "ecommerce-app-2023",
   "version": "1.0.0",
   "description": "ecommerce rest api",
   "main": "server.js",
@@ -14,14 +14,26 @@
   "dependencies": {
     "axios": "^1.7.7",
     "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
     "colors": "^1.4.0",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "font-awesome": "^4.7.0",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.10.0",
     "mongoose": "^6.13.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22",
-    "react-icons": "^4.12.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^4.12.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.27.0",
+    "redux": "^5.0.1",
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1"
   }
 }
